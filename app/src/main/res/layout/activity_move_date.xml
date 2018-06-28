@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joelureellanah.calendar8.MoveDate">
+
+
+    <CalendarView
+        android:id="@+id/calendar1"
+        android:layout_width="369dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/calendar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:id="@+id/linearLayout">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/moveDateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/calendar1" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/show123"
+        android:inputType="textMultiLine"
+        android:text="Title"
+        android:layout_below="@+id/moveDateBtn"
+         />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/show4"
+        android:inputType="textMultiLine"
+        android:text="Time"
+        android:layout_below="@+id/show123"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/show5"
+        android:inputType="textMultiLine"
+        android:text="detail"
+        android:layout_below="@+id/show4"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/show6"
+        android:inputType="textMultiLine"
+        android:text="Date"
+        android:layout_below="@+id/show5"
+        />
+
+
+</RelativeLayout>

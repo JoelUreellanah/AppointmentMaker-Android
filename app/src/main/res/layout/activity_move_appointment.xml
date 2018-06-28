@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joelureellanah.calendar8.DeleteSingle">
+
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:id="@+id/editText_show2"
+        android:inputType="textMultiLine"
+        android:text="BigText1"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteY="-4dp"
+        tools:layout_editor_absoluteX="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/moveBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:layout_below="@+id/userTxt2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/userTxt2"
+        android:layout_below="@+id/editText_show2"
+        android:inputType="textMultiLine"
+        android:hint="Enter Number"
+        android:layout_alignRight="@+id/moveBTN"
+        android:layout_alignEnd="@+id/moveBTN"
+        android:layout_alignLeft="@+id/moveBTN"
+        android:layout_alignStart="@+id/moveBTN" />
+
+
+</RelativeLayout>
